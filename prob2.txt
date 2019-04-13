@@ -1,0 +1,18 @@
+<h2>2. Modular Exponentiation </h2>
+<p>Given integers n and m, calculate <img src="math.png"></p>
+<p>n,m  lies in range [0 , 10^8 ]</p>
+<b>Example 1 :</b>
+<pre>
+Input  : 4 42
+Output : 10
+</pre>
+<b>Example 2 :</b>
+<pre>
+Input  : 1 58
+Output : 0
+</pre>
+<b>Marks Evaluation :</b>
+<p>Time Complexity: O(1) - Full Marks</p>
+<p>otherwise Your Marks will be inversely proportional to Time Complexity of Solution</p>
+<b>it is actually possible to solve the problem by directly calculating the result in Python or Java using built-in long arithmetics.but that way you will get 0 Marks.</b>
+

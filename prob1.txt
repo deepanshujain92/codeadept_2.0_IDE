@@ -1,0 +1,25 @@
+<h2>1. Pretty Rectangle </h2>
+			<p>Print concentric rectangular pattern Like a 2d matrix.</p> <p>Let us show you some examples to clarify what we mean.</p>
+  <b>Example 1:</b><br>
+ <b>Input: A = 4</b><br>
+ <b>Output:</b><br>
+<pre>
+	4 4 4 4 4 4 4 
+	4 3 3 3 3 3 4 
+	4 3 2 2 2 3 4 
+	4 3 2 1 2 3 4 
+	4 3 2 2 2 3 4 
+	4 3 3 3 3 3 4 
+	4 4 4 4 4 4 4 
+</pre>
+<b>Example 2:</b><br>
+<b>Input: A = 3</b><br>
+<b>Output: </b><br>
+<pre>
+	3 3 3 3 3 
+	3 2 2 2 3 
+	3 2 1 2 3 
+	3 2 2 2 3 
+	3 3 3 3 3 
+</pre>
+<p>The outermost rectangle is formed by A, then the next outermost is formed by A-1 and so on.</p><p>You will be given A as an input </p>

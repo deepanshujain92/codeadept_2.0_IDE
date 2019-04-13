@@ -1,0 +1,199 @@
+   #editor,.o{ 
+        height: 500px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.5);
+    }
+    .oh{
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.24), 0 2px 6px rgba(0, 0, 0, 0.5);
+       font-size:20px;
+       background-color:#f5f5f5;width:100%;
+       padding :5px;
+       border:2px solid white;
+
+      }
+      .box{
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.24), 0 2px 6px rgba(0, 0, 0, 0.5);
+      }
+      #x{
+         float:right;
+         font-size:16px;
+         cursor:pointer;
+        }
+     #output{
+             width: 100%;height:100%;
+             
+           }
+    .btn{
+      font-size: 14px;
+      font-family: monaco,Courier,monospace;
+      box-shadow: 0 4px 12px 0 rgba(27,169,76,.5);
+    }
+    .btn-success{
+      background-color: #1ba94c;
+    }
+
+.c {
+    display: block;
+    position:absolute;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.c input{
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+}
+
+
+.c:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.c input:checked ~ .checkmark {
+    background-color: #32CD32;
+}
+/*
+#loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+*/
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.c input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.c .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.panal{
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin-top: 3%;
+}
+.s{
+  width: 100px;
+}
+#in{
+  display: none;
+}
+
+/*
+ for switch
+*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ddd;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #64bd63;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #dfdfdf;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+label.switch{
+  margin-bottom: -5px;
+}
+
+#save{
+  float: right;
+    line-height: 2;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    margin: auto;
+    color: skyblue;
+   height: 100%;
+}

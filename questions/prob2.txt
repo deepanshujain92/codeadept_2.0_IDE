@@ -1,0 +1,13 @@
+ <h2>2. To Lower Case</h2>
+                    <p>Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.</p>
+                    <b>Example:1</b>
+                    <pre>Input: "Hello" 
+Output: "hello"</pre>
+                    <b>Example:2</b>
+                    <pre>Input: "here"
+Output: "here"</pre>
+                    <b>Example:3</b>
+                    <pre>Input: "HELLO WORLD"
+Output: "hello world"</pre>
+
+
