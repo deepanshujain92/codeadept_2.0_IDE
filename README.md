@@ -2,6 +2,7 @@
 
   Change Permissions of directory while running this code.
   and for login create a database name ide  and create table users
-  table contains id(auto increment and primary key), username,password,email,phone,year,and branch    
+  table contains `id(auto increment and primary key), username,password,email,phone,year,and branch` 
+  or just import ide.sql .
 
   ![gif](compiler.gif)
