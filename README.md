@@ -12,7 +12,7 @@ import `ide.sql` and change username and password of root in files according to 
 
 ### Coding Area
 
-![Coding Area](coding_area.png)
+![CodingArea](coding_area.png)
 
 ### Run a program
 
