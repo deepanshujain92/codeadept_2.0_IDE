@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Os-Linux-blue.svg)  ![](https://img.shields.io/badge/Tested%20on-Ubuntu-orange.svg) ![](https://img.shields.io/badge/libraries_used-Ace%20Bootstrap_SweetAlert-brightgreen.svg) [![](https://img.shields.io/badge/license-WTFPL-blue.svg)](http://www.wtfpl.net/)
 
-#   Codeadept 2.0
+ ![](https://img.shields.io/badge/codeadept-2.0-green.svg?style=for-the-badge)
+
+This IDE was used in event codeadept 2.0.
 
 ###  setup
 
