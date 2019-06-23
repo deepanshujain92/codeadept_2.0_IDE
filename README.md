@@ -1,8 +1,9 @@
-# CodeAdept 2.0
+# Codeadept 2.0
+### Login Screen
+![](ui.png)
 
-  Change Permissions of directory while running this code.
-  and for login create a database name ide  and create table users
-  table contains `id(auto increment and primary key), username,password,email,phone,year,and branch` 
-  or just import ide.sql .
+### Coding Area
+![](coding_area.png)
 
-  ![gif](compiler.gif)
+### Run a program
+![](output.gif)
