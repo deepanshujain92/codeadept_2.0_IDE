@@ -8,12 +8,12 @@ import `ide.sql` and change username and password of root in files according to 
 
 ### Login Screen
 
-![](ui.png)
+![ui](ui.png)
 
 ### Coding Area
 
-![](coding_area.png)
+![Coding Area](coding_area.png)
 
 ### Run a program
 
-![](output.gif)
+![Run_Program](output.gif)
